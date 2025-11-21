@@ -10,7 +10,7 @@
             padding: 0;
             background: #111;
             color: red;
-            font-family: Courier New, Courier, monospacef;
+            font-family: "Courier New", Courier, monospace;
             display: flex;
             flex-direction: column;
             height: 100vh;
@@ -23,6 +23,13 @@
             font-weight: bold;
         }
 
+        header img {
+            height: 70px;
+            width: auto;
+            border-radius: 12px;
+            margin-bottom: 10px;
+        }
+
         main {
             flex: 1;
             display: flex;
@@ -31,8 +38,8 @@
         }
 
         iframe {
-            width: 75vw;   /* 75% of screen width */
-            height: 75vh;  /* 75% of screen height */
+            width: 75vw;
+            height: 75vh;
             border: none;
             border-radius: 10px;
             background: black;
@@ -42,8 +49,9 @@
 <body>
 
     <header>
+        <img src="/mnt/data/Screenshot 2025-11-20 at 7.26.58 PM.png" alt="Spike Surge Logo">
         <h1>Spike Surge</h1>
-        <h2>a game created by AlecP999</h2>
+        <h2 style="font-size: 20px;">a game created by AlecP999</h2>
     </header>
 
     <main>
